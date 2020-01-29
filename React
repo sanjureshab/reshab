@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+</head>
+<body>
+    <div id="App"> React not yet started</div>
+    <script type="text/babel">
+        ReactDOM.render(
+            <a href="https://www.google.com">Click here to go to google</a> ,
+            document.getElementById("App")
+
+        );
+    </script>
+    <div id="App1">react</div>
+    <script type="text/babel">    
+        ReactDOM.render(
+            <p>Hy EveryOne</p>,
+            document.getElementById("App1")
+        );
+    </script> 
+    <div id="App2">react</div>
+    <script type="text/babel">    
+        ReactDOM.render(
+            <ul>
+                <li>Sanju</li>
+                <li>Shilpa</li>
+            </ul>,    
+            document.getElementById("App2")
+        );
+    </script>     
+</body>
+</html>
